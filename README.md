@@ -2,16 +2,20 @@
 
 ## Data Set Information:
 
-The widely used Statlog German credit data ([[Web Link](german+credit+data)]), as of November 2019, suffers from severe errors in the coding information and does not come with any background information. The 'South German Credit' data provide a correction and some background information, based on the Open Data LMU (2010) representation of the same data and several other German language resources.
+The widely used Statlog German credit data ([[Web Link](https://archive.ics.uci.edu/ml/datasets/South+German+Credit+%28UPDATE%29)]), as of November 2019, suffers from severe errors in the coding information and does not come with any background information. The 'South German Credit' data provide a correction and some background information, based on the Open Data LMU (2010) representation of the same data and several other German language resources.
 
+- 700 good and 300 bad credits with 20 predictor variables. Data from 1973 to 1975. Stratified sample from actual credits with bad credits heavily oversampled. A cost matrix can be used.
 
 ## Attribute Information:
+
+> - ### This section contains a brief description for each  attribute.
+> 
+> - ### Details on attribute coding can be obtained from the accompanying R code for reading the data
+>   ### or the accompanying code table, as well as from Groemping (2019) (listed under 'Relevant Papers'). 
+
+
 ___
-### This section contains a brief description for each attribute.
-### Details on attribute coding can be obtained from the accompanying R code for reading the data
-### or the accompanying code table,
-### as well as from Groemping (2019) (listed under 'Relevant Papers'). 
-___
+
 
 **Column** **name:** laufkont
 
@@ -107,6 +111,22 @@ from the 1970s)
 **Column name:** kredit   
 **Variable name:** credit_risk   
 **Content:** Has the credit contract been complied with (good) or not (bad) ? (binary)
+
+## Hypothesis Statement
+
+As the population age increases their credit status increases.
+ - Null: As age increases Status increases
+ - Alt: As age increases Status reamains the same or decreases
+
+
+
+
+
+
+
+
+
+
 
 # Citation Request:
 
