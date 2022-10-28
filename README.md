@@ -114,9 +114,9 @@ from the 1970s)
 
 ## Hypothesis Statement
 
-As the population age increases their credit status increases.
- - Null: As age increases Status increases
- - Alt: As age increases Status reamains the same or decreases
+
+
+
 
 
 
